@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/order/order",
+    "pages/shopcart/shopcart",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#006600",
+    "navigationBarTitleText": "dxy的小商城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#006600",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home_HL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "image/order.png",
+        "selectedIconPath": "image/order_HL.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/shopcart/shopcart",
+        "iconPath": "image/cart.png",
+        "selectedIconPath": "image/cart_HL.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "image/user.png",
+        "selectedIconPath": "image/user_HL.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
